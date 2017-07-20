@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should match snapshot with full data 1`] = `
+<div
+  className="topic-item"
+>
+  <h4>
+    Topic 1
+  </h4>
+  <p>
+    Topic 1 content
+  </p>
+  <button
+    className="btn btn-default btn-sm btn-vote"
+    onClick={undefined}
+  >
+    <span>
+      10
+       | 
+    </span>
+    <span>
+      Vote
+    </span>
+  </button>
+  <button
+    className="btn btn-link btn-sm btn-downvote"
+    onClick={undefined}
+  >
+    <span>
+      5
+       | 
+    </span>
+    <span>
+      DownVote
+    </span>
+  </button>
+</div>
+`;

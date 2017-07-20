@@ -1,0 +1,374 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should match snapshot with full data 1`] = `
+<div
+  className="topics-container"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-xs-12 col-sm-12 col-md-8 col-md-push-2"
+      >
+        <div
+          className="clearfix"
+        >
+          <h2
+            className="pull-left"
+          >
+            Topic list
+          </h2>
+          <a
+            className="pull-right btn btn-primary btn-add-topic"
+            onClick={[Function]}
+            style={Object {}}
+          >
+            Add Topic
+          </a>
+          <button
+            className="pull-right btn btn-link btn-refresh"
+            onClick={undefined}
+          >
+            Refresh
+          </button>
+        </div>
+        <div
+          className="topic-list"
+        >
+          <div
+            className="topic-item"
+          >
+            <h4>
+              Why do people say "let love find you, don't look for it"?
+            </h4>
+            <p>
+              "If you sit home playing video games all day, you won't meet anyone." Heh. Heh heh heh. HEH HEH!I was 49 years old, and had never been married. In fact, I had barely dated as an adult. I'd had one
+            </p>
+            <button
+              className="btn btn-default btn-sm btn-vote"
+              onClick={[Function]}
+            >
+              <span>
+                10
+                 | 
+              </span>
+              <span>
+                Vote
+              </span>
+            </button>
+            <button
+              className="btn btn-link btn-sm btn-downvote"
+              onClick={[Function]}
+            >
+              <span>
+                DownVote
+              </span>
+            </button>
+          </div>
+          <div
+            className="topic-item"
+          >
+            <h4>
+              What psychological tricks and hacks are useful to know?
+            </h4>
+            <p>
+              Here are my 33 secret secrets which maybe I have never shared with anyone.
+            </p>
+            <button
+              className="btn btn-default btn-sm btn-vote"
+              onClick={[Function]}
+            >
+              <span>
+                20
+                 | 
+              </span>
+              <span>
+                Vote
+              </span>
+            </button>
+            <button
+              className="btn btn-link btn-sm btn-downvote"
+              onClick={[Function]}
+            >
+              <span>
+                4
+                 | 
+              </span>
+              <span>
+                DownVote
+              </span>
+            </button>
+          </div>
+          <div
+            className="topic-item"
+          >
+            <h4>
+              What should you never say to a programmer?
+            </h4>
+            <p>
+              So Mark Zuckerberg came to Nigeria and a lot of people wouldn't shut up about it while he was around
+            </p>
+            <button
+              className="btn btn-default btn-sm btn-vote"
+              onClick={[Function]}
+            >
+              <span>
+                13
+                 | 
+              </span>
+              <span>
+                Vote
+              </span>
+            </button>
+            <button
+              className="btn btn-link btn-sm btn-downvote"
+              onClick={[Function]}
+            >
+              <span>
+                DownVote
+              </span>
+            </button>
+          </div>
+          <div
+            className="topic-item"
+          >
+            <h4>
+              What is a fun psychological trick to try on someone?
+            </h4>
+            <p>
+              This one’s always funny… or at least it is when I use it on my friends.Say you're sitting next to your friend in a library. Your friend is studying intensely for the upcoming exams
+            </p>
+            <button
+              className="btn btn-default btn-sm btn-vote"
+              onClick={[Function]}
+            >
+              <span>
+                19
+                 | 
+              </span>
+              <span>
+                Vote
+              </span>
+            </button>
+            <button
+              className="btn btn-link btn-sm btn-downvote"
+              onClick={[Function]}
+            >
+              <span>
+                DownVote
+              </span>
+            </button>
+          </div>
+          <div
+            className="topic-item"
+          >
+            <h4>
+              Which is the better platform, Squarespace or GoDaddy?
+            </h4>
+            <p>
+              Lorem
+            </p>
+            <button
+              className="btn btn-default btn-sm btn-vote"
+              onClick={[Function]}
+            >
+              <span>
+                10
+                 | 
+              </span>
+              <span>
+                Vote
+              </span>
+            </button>
+            <button
+              className="btn btn-link btn-sm btn-downvote"
+              onClick={[Function]}
+            >
+              <span>
+                2
+                 | 
+              </span>
+              <span>
+                DownVote
+              </span>
+            </button>
+          </div>
+          <div
+            className="topic-item"
+          >
+            <h4>
+              What is the best advice you can give to a junior programmer?
+            </h4>
+            <p>
+              Oh I have a bunch of these.Been a Software Developer in multiple companies for close to 10 years and I could not stress more on the following
+            </p>
+            <button
+              className="btn btn-default btn-sm btn-vote"
+              onClick={[Function]}
+            >
+              <span>
+                4
+                 | 
+              </span>
+              <span>
+                Vote
+              </span>
+            </button>
+            <button
+              className="btn btn-link btn-sm btn-downvote"
+              onClick={[Function]}
+            >
+              <span>
+                3
+                 | 
+              </span>
+              <span>
+                DownVote
+              </span>
+            </button>
+          </div>
+          <div
+            className="topic-item"
+          >
+            <h4>
+              How good of a programmer is Mark Zuckerberg?
+            </h4>
+            <p>
+              In 2006, Zuckerberg gave up coding to focus on running the business of Facebook
+            </p>
+            <button
+              className="btn btn-default btn-sm btn-vote"
+              onClick={[Function]}
+            >
+              <span>
+                15
+                 | 
+              </span>
+              <span>
+                Vote
+              </span>
+            </button>
+            <button
+              className="btn btn-link btn-sm btn-downvote"
+              onClick={[Function]}
+            >
+              <span>
+                5
+                 | 
+              </span>
+              <span>
+                DownVote
+              </span>
+            </button>
+          </div>
+          <div
+            className="topic-item"
+          >
+            <h4>
+              What are the best comments in a code?
+            </h4>
+            <p>
+              Found at the beginning of an infinite loop
+            </p>
+            <button
+              className="btn btn-default btn-sm btn-vote"
+              onClick={[Function]}
+            >
+              <span>
+                12
+                 | 
+              </span>
+              <span>
+                Vote
+              </span>
+            </button>
+            <button
+              className="btn btn-link btn-sm btn-downvote"
+              onClick={[Function]}
+            >
+              <span>
+                2
+                 | 
+              </span>
+              <span>
+                DownVote
+              </span>
+            </button>
+          </div>
+          <div
+            className="topic-item"
+          >
+            <h4>
+              What are some things that look easy but are difficult?
+            </h4>
+            <p>
+              Doing stand up comedy. I do it as an amateur for fun.What I thought it was before I did it: You walk up, tell jokes for 10 minutes, then collect your free beer or $20.
+            </p>
+            <button
+              className="btn btn-default btn-sm btn-vote"
+              onClick={[Function]}
+            >
+              <span>
+                12
+                 | 
+              </span>
+              <span>
+                Vote
+              </span>
+            </button>
+            <button
+              className="btn btn-link btn-sm btn-downvote"
+              onClick={[Function]}
+            >
+              <span>
+                3
+                 | 
+              </span>
+              <span>
+                DownVote
+              </span>
+            </button>
+          </div>
+          <div
+            className="topic-item"
+          >
+            <h4>
+              How India's Aadhaar database is maintained? What are the data structures involved? How search is performed (from an algorithmic perspective)?
+            </h4>
+            <p>
+              
+            </p>
+            <button
+              className="btn btn-default btn-sm btn-vote"
+              onClick={[Function]}
+            >
+              <span>
+                10
+                 | 
+              </span>
+              <span>
+                Vote
+              </span>
+            </button>
+            <button
+              className="btn btn-link btn-sm btn-downvote"
+              onClick={[Function]}
+            >
+              <span>
+                4
+                 | 
+              </span>
+              <span>
+                DownVote
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
