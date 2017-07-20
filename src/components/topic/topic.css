@@ -1,0 +1,26 @@
+.btn-vote {
+  background: #f1f8fb;
+  color: #2b6dad;
+  border: 1px solid #bbcadc;
+  font-weight: bold;
+}
+
+.btn-vote:hover {
+  background: #f1f8fb;
+  border-color: #2b6dad;
+}
+
+.btn-downvote {
+  color: #999;
+}
+
+.topic-item {
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  padding: 15px;
+  background-color: #fff;
+}
+
+.topic-item + .topic-item {
+  margin-top: 15px;
+}

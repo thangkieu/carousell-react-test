@@ -1,9 +1,24 @@
 import React from 'react';
-const Topic = ({ topic }) => (
-  <div>
+import './topic.css';
+
+const Topic = ({ topic, onUpVoteTopic, onDownVoteTopic }) => (
+  <div className="topic-item">
     <h4>{topic.title}</h4>
     <p>{topic.content}</p>
-    <button>Vote</button>
+    <button
+      className="btn btn-default btn-sm btn-vote"
+      onClick={onUpVoteTopic}
+    >
+      {topic.upvote > 0 && <span>{topic.upvote} | </span>}
+      <span>Vote</span>
+    </button>
+    <button
+      className="btn btn-link btn-sm btn-downvote"
+      onClick={onDownVoteTopic}
+    >
+      {topic.downvote > 0 && <span>{topic.downvote} | </span>}
+      <span>DownVote</span>
+    </button>
   </div>
 );
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { addTopic } from '../../actions/topic';
+import { showNotification, hideNotification } from '../../actions/common';
 
 class AddTopic extends React.Component {
   constructor(p) {
@@ -13,6 +13,27 @@ class AddTopic extends React.Component {
 
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
+  }
+
+  componentWillReceiveProps(nextProps) {
+    if (this.props.addTopicSuccess !== nextProps.addTopicSuccess) {
+      if (nextProps.addTopicSuccess) {
+        showNotification('Add topic success.', 'success');
+
+        this.setState({
+          title: '',
+          content: ''
+        });
+
+        setTimeout(() => {
+          hideNotification();
+        }, 2000);
+
+        if (this.props.resetAddTopic) {
+          this.props.resetAddTopic();
+        }
+      }
+    }
   }
 
   render() {
@@ -28,10 +49,10 @@ class AddTopic extends React.Component {
               </div>
               <div className="form-group">
                 <label htmlFor="">Topic content</label>
-                <textarea className="form-control" value={this.state.content} name="content" rows="3" placeholder="Topic content..." onChange={this.handleChange}></textarea>
+                <textarea maxLength="255" className="form-control" value={this.state.content} name="content" rows="3" placeholder="Topic content..." onChange={this.handleChange}></textarea>
               </div>
               <div className="text-right">
-                <button type="submit" className="btn btn-primary">Submit</button>
+                <button type="submit" className="btn btn-primary" disabled={!this.state.title || !this.state.content}>Submit</button>
               </div>
             </form>
           </div>
@@ -62,10 +83,4 @@ class AddTopic extends React.Component {
   }
 }
 
-function mapDispatchToProps(dispatch) {
-  return {
-    addTopic: data => dispatch(addTopic(data))
-  }
-}
-
-export default connect(null, mapDispatchToProps)(AddTopic);
+export default AddTopic;

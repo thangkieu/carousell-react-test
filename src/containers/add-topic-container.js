@@ -1,15 +1,22 @@
 import React from 'react';
+import { bindActionCreators } from 'redux';
+
 import { connect } from 'react-redux';
-import { addTopic } from '../../actions/topic';
+import { addTopic, resetAddTopic } from '../actions/topic';
 
 import AddTopic from '../components/add-topic';
 
-const AddTopicContainer = ({ addTopic }) => (
-  <AddTopic addTopic={addTopic} />
+const AddTopicContainer = (props) => (
+  <AddTopic {...props} />
 );
 
-const mapDispatchToProps = () => ({
-  addTopic
+const mapStateToProps = state => ({
+  addTopicSuccess: state.topic.addTopicSuccess
 });
 
-export default connect(null, mapDispatchToProps)(AddTopicContainer);
+const mapDispatchToProps = (dispatch) => (bindActionCreators({
+  addTopic,
+  resetAddTopic
+}, dispatch));
+
+export default connect(mapStateToProps, mapDispatchToProps)(AddTopicContainer);
