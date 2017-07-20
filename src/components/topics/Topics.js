@@ -13,7 +13,7 @@ const Topics = ({ topics, upVoteTopic, downVoteTopic, onRefresh }) => (
           <div className="clearfix">
             <h2 className="pull-left">Topic list</h2>
             <Link to="/add" className="pull-right btn btn-primary btn-add-topic">Add Topic</Link>
-            <button className="pull-right btn btn-link btn-add-topic" onClick={onRefresh}>Refresh</button>
+            <button className="pull-right btn btn-link btn-refresh" onClick={onRefresh}>Refresh</button>
           </div>
           <div className="topic-list">
             {

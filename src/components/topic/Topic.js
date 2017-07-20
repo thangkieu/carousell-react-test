@@ -1,7 +1,7 @@
 import React from 'react';
 import './topic.css';
 
-const Topic = ({ topic, onUpVoteTopic, onDownVoteTopic }) => (
+const Topic = ({ topic = {}, onUpVoteTopic, onDownVoteTopic }) => (
   <div className="topic-item">
     <h4>{topic.title}</h4>
     <p>{topic.content}</p>
