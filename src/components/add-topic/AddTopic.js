@@ -1,5 +1,4 @@
 import React from 'react';
-import { connect } from 'react-redux';
 import { showNotification, hideNotification } from '../../actions/common';
 
 class AddTopic extends React.Component {

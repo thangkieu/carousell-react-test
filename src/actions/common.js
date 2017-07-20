@@ -11,7 +11,7 @@ export function showNotification(message = '', type = '') {
   }
 }
 
-export function hideNotification(message = '') {
+export function hideNotification() {
   const notification = document.getElementById('js-notification');
 
   if (notification) {

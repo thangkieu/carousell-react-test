@@ -1,3 +1,10 @@
+/**
+ * @author Thang Kieu
+ *
+ * @description Topics component
+ * list all of topics base on data from Topics Container
+ */
+
 import React from 'react';
 import { Link } from 'react-router';
 
