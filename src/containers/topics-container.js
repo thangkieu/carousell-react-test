@@ -1,3 +1,11 @@
+/**
+ * @author Thang Kieu
+ *
+ * Topic container
+ * Connect store to get topics list
+ * dispatch some actions
+ */
+
 import React from 'react';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';

@@ -1,3 +1,11 @@
+/**
+ * @author Thang Kieu
+ *
+ * Component Topic
+ * render content of single topic
+ * with upvote and downvote buttons
+ */
+
 import React from 'react';
 import './topic.css';
 

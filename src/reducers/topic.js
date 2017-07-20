@@ -1,3 +1,8 @@
+/**
+ * @author Thang Kieu
+ *
+ * Topic reducer
+ */
 import { topics as TOPICS } from '../mock';
 import { sortTopics } from '../actions/common';
 

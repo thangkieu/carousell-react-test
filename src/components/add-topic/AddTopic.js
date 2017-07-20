@@ -1,3 +1,11 @@
+/**
+ * @author Thang Kieu
+ *
+ * Component AddTopic
+ * render form to allow user add new topic
+ * with 2 field: title and content
+ */
+
 import React from 'react';
 import { showNotification, hideNotification } from '../../actions/common';
 

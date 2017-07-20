@@ -1,3 +1,9 @@
+/**
+ * @author Thang Kieu
+ *
+ * Common actions
+ */
+
 export function showNotification(message = '', type = '') {
   const notification = document.getElementById('js-notification');
 

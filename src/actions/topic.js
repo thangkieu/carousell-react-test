@@ -1,3 +1,9 @@
+/**
+ * @author Thang Kieu
+ *
+ * Redux actions
+ * update state of topics
+ */
 export function getTopics() {
   return {
     type: 'GET_TOPICS',

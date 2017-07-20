@@ -1,3 +1,10 @@
+/**
+ * @author Thang Kieu
+ *
+ * Boost app
+ * Router to navigate
+ */
+
 import React, { Component } from 'react';
 import { Route, Router, IndexRoute, browserHistory } from 'react-router';
 import 'bootstrap/dist/css/bootstrap.css';
